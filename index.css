@@ -70,13 +70,23 @@ body {
 }
 
 #button {
-	width: 14%;
-	height: 45px;
+	filter: drop-shadow(-4px 4px 10px rgba(0, 0, 0, 0.25));
+
 	background-color: #00AED9;
-	margin-left: 73%;
-	margin-top: 3%;
-	padding: 2px;
-	text-align: center;
-	/*justify-content: center;*/
+    color: white;
+    display: block;
+    padding: 2px;
+    line-height: 40px;
+    text-decoration: none;
+    width: 13%;
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 73%;
+    font-size: 22px;
 
 }
+
+#button:hover {
+	background-color: #0089ab;
+}
+
