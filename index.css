@@ -1,0 +1,33 @@
+body {
+	font-family: 'Lato', sans-serif;
+	overflow: hidden;
+
+	background: url("images/background.jpeg") no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+#content {
+	top: 0;
+	width: 55%;
+	height: 100%;
+	position: fixed;
+
+	margin-left: 45%;
+	background-color: grey;
+	opacity: 0.4;
+
+	border: 1px solid black;
+
+	display: flex;
+}
+
+#left {
+	height: 100%;
+}
+
+#right {
+
+}
