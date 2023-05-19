@@ -88,5 +88,9 @@ body {
 	position: fixed;
 	bottom: 0;
 	right: 1%;
+
+	user-select: none;
+
+	/*animation: fadeIn 1s;*/
 }
 
