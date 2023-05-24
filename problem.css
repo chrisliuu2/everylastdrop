@@ -24,7 +24,7 @@ li, a, button {
 }
 
 header {
-	/*border: 1px solid red;*/
+	border: 1px solid red;
 	animation: fadeIn 1s;
 	display: flex;
 	justify-content: flex-end; 
@@ -80,6 +80,48 @@ button:hover {
 	height: 100%;
 }
 
+#help {
+	width: 100%;
+	border: 1px solid red;
+}
+
+.container {
+	border: 1px solid red;
+	width: 100%;
+	height: 200px;
+
+	display: flex;
+	margin-bottom: 2%;
+}
+
+.left-txt {
+	margin-left: 10%;
+	width: 50%;
+	border: 1px solid black;
+	height: 100%;
+	padding: 20px;
+	line-height: 1.6;
+}
+
+.right-img {
+	width: 30%;
+	border: 1px solid black;
+}
+
+.right-txt {
+	width: 50%;
+	border: 1px solid black;
+	height: 100%;
+	padding: 20px;
+	line-height: 1.6;
+}
+
+.left-img {
+	width: 30%;
+	margin-left: 10%;
+	border: 1px solid black;
+}
+
 #footer {
 	margin-top: 5%;
 	/*border-top: 1px solid black;*/
@@ -89,5 +131,6 @@ button:hover {
 	width: 100%;
 	height: 60px;
 }
+
 
 
