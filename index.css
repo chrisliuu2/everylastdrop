@@ -76,6 +76,7 @@ body {
 
 	margin: 10% 0% 0% 10%;
 	user-select: none;
+	 transition: all 0.3s ease;
 }
 
 #button:hover {
