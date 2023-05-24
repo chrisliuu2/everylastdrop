@@ -11,10 +11,6 @@
 	background-color: white;
 }
 
-body {
-	overflow: hidden;
-}
-
 nav {
 	/*margin-right: auto;*/
 	margin-left: auto;
@@ -76,3 +72,76 @@ button:hover {
 
 }
 
+#eld {
+	width: 100%;
+	display: flex;
+	border: 1px solid red;
+
+	height: 350px;
+	margin-top: 3%;
+}
+
+#left {
+	margin-left: 15%;
+	width: 35%;
+	height: 100%;
+
+	/*border: 1px solid red;*/
+	text-align: center;
+}
+
+#left img {
+	width: 60%;
+	height: 90%;
+	margin-top: 5%;
+}
+
+#right {
+	width: 35%;
+	height: 100%;
+
+	/*border: 1px solid red;*/
+	padding-top: 1.6%;
+	line-height: 1.6;
+}
+
+#donate_link {
+	text-decoration: underline;
+	color: #00AED9;
+
+	font-weight: 400;
+	transition: all 0.3s ease;
+	font-size: 18px;
+}
+
+#donate_link:hover {
+	color: #0091B4;
+	cursor: pointer;
+}
+
+#donate_link:visited {
+	color: #00AED9;
+	transition: all 0.3s ease;
+}
+
+#donate_link:visited:hover {
+	color: #0091B4;
+	cursor: pointer;
+}
+
+#team {
+	margin-top: 5%;
+	width: 100%;
+	height: 700px;
+	border: 1px solid red;
+}
+
+#footer {
+	margin-top: 5%;
+	/*border-top: 1px solid black;*/
+	/*background-color: #ECECEC;*/
+
+	display: flex;
+	width: 100%;
+	height: 60px;
+}
