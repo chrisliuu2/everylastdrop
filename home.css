@@ -161,7 +161,6 @@ h1{
 	display: flex;
 
 	line-height: 1.6;
-
 }
 
 #text {
@@ -178,8 +177,7 @@ h1{
 	color: white;
 	font-weight: 400;
 	padding: 13.5%;
-	/*font-size: 18px;*/
-}
+	/*font-size: 18px;*/}
 
 #learn_more_button {
 	/*color: white;*/
