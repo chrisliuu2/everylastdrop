@@ -96,6 +96,8 @@ button:hover {
 	width: 60%;
 	height: 90%;
 	margin-top: 5%;
+
+	user-select: none;
 }
 
 #right {
