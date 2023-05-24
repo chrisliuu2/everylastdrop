@@ -25,10 +25,12 @@ body {
 	margin-left: 45%;
 	/*background-color: grey;*/
 	background-color: rgba(157, 180, 153, 0.6);
+	filter: drop-shadow(-4px 4px 10px rgba(0, 0, 0, 0.25));
+
 	/*opacity: 0.4;*/
 
 
-	border: 1px solid grey;
+	/*border: 1px solid grey;*/
 
 	display: flex;
 }
