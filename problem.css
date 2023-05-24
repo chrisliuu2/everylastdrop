@@ -11,10 +11,6 @@
 	background-color: white;
 }
 
-body {
-	overflow: hidden;
-}
-
 nav {
 	/*margin-right: auto;*/
 	margin-left: auto;
@@ -28,7 +24,7 @@ li, a, button {
 }
 
 header {
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	animation: fadeIn 1s;
 	display: flex;
 	justify-content: flex-end; 
@@ -73,6 +69,14 @@ button {
 
 button:hover {
 	background-color: rgba(0, 145, 180, 1);
+}
 
+#infographic {
+	text-align: center;
+}
+
+#infographic img {
+	width: 80%;
+	height: 100%;
 }
 
