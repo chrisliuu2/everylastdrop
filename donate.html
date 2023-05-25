@@ -9,7 +9,11 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
 
-		<!-- <script src="home.js"></script> -->
+		<script>
+			function donation() {
+			  alert("Thank you for your donation!\n\nClick 'OK' to return to homepage");
+			}
+		</script>
 	</head>
 	<body>
 		<header>
@@ -23,5 +27,93 @@
 			</nav>
 			<a href="donate.html"><button>Donate now</button></a>
 		</header>
-	</body>
+		<p style="font-weight: 700; font-size: 40px; text-align: center;">Thank you!</p>
+		<p style="font-weight: 300; font-size: 30px; text-align: center; margin-top: 1%"><span style="font-weight: 400;">100%</span> of your donation funds our water security projects around the world.</p>
+		<div class="container">
+		    <form action="home.html">
+		        <div class="row">
+
+		            <div class="col">
+
+		                <h3 class="title">billing address</h3>
+
+		                <div class="inputBox">
+		                    <span>Full name:</span>
+		                    <input type="text" placeholder="John Pork">
+		                </div>
+		                <div style="margin-top: 5.4%;" class="inputBox">
+		                    <span>Email:</span>
+		                    <input type="email" placeholder="example@example.com">
+		                </div>
+		                <div class="inputBox">
+		                    <span>Address:</span>
+		                    <input type="text" placeholder="4175 W 29th Avenue">
+		                </div>
+		                <div class="inputBox">
+		                    <span>City:</span>
+		                    <input type="text" placeholder="Vancouver">
+		                </div>
+
+		                <div class="flex">
+		                    <div class="inputBox">
+		                        <span>Country:</span>
+		                        <input type="text" placeholder="Canada">
+		                    </div>
+		                    <div class="inputBox">
+		                        <span>Zip code:</span>
+		                        <input type="text" placeholder="123 456">
+		                    </div>
+		                </div>
+
+		            </div>
+
+		            <div class="col">
+
+		                <h3 class="title">payment</h3>
+
+		                <div class="inputBox">
+		                    <span>Cards accepted:</span>
+		                    <img src="images/card_img.png" alt="">
+		                </div>
+		                <div class="inputBox">
+		                    <span>Donation amount (CAD):</span>
+		                    <input type="number" placeholder="100">
+		                </div>
+		                <div class="inputBox">
+		                    <span>Credit card number:</span>
+		                    <input type="number" placeholder="1111-2222-3333-4444">
+		                </div>
+		                <div class="inputBox">
+		                    <span>Exp month:</span>
+		                    <input type="text" placeholder="May">
+		                </div>
+
+		                <div class="flex">
+		                    <div class="inputBox">
+		                        <span>Exp year:</span>
+		                        <input type="number" placeholder="2022">
+		                    </div>
+		                    <div class="inputBox">
+		                        <span>CVV:</span>
+		                        <input type="number" placeholder="1234">
+		                    </div>
+		                </div>
+
+		            </div>
+		    
+		        </div>
+
+		        <input onclick="donation()" type="submit" value="Send donation" class="submit-btn">
+
+		    </form>
+
+		</div>
+
+		<div id="footer">
+			<a href="https://youtu.be/dQw4w9WgXcQ"><img style="margin: 6px 0px 0px 40px; width: 25px; height: 25px; cursor: pointer;" src="images/insta.png"></a>
+			<a href="https://youtu.be/dQw4w9WgXcQ"><img style="margin: 6px 0px 0px 30px; width: 25px; height: 25px; cursor: pointer;" src="images/twitter.png"></a>
+			<a href="https://youtu.be/dQw4w9WgXcQ"><img style="margin: 6px 0px 0px 30px; width: 25px; height: 25px; cursor: pointer;" src="images/facebook.png"></a>
+
+			<p style="right: 0; font-weight: 300; line-height: 38px; position: absolute; margin-right: 40px;">everylastdrop®</p>
+		</div>    
 </html>

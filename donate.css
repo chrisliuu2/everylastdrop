@@ -69,5 +69,110 @@ button {
 
 button:hover {
 	background-color: rgba(0, 145, 180, 1);
+}
 
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:25px;
+  /*min-height: 100vh;*/
+
+  /*border: 1px solid red;*/
+  margin-top: 2%;
+  /*background: linear-gradient(90deg, #2ecc71 60%, #27ae60 40.1%);*/
+}
+
+.container form{
+  padding:20px;
+  width:700px;
+  background: #fff;
+  /*box-shadow: 0 5px 10px rgba(0,0,0,.1);*/
+  filter: drop-shadow(-4px 4px 10px rgba(0, 0, 0, 0.25));
+  /*font-family: 'Lato', sans-serif;*/
+  font-weight: 300;
+
+}
+
+.container form .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.container form .row .col {
+  flex: 1 1 250px;
+}
+
+.container form .row .col .title {
+  font-size: 20px;
+  color:#333;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.container form .row .col .inputBox {
+  margin: 15px 0;
+}
+
+.container form .row .col .inputBox span {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.container form .row .col .inputBox input {
+  width: 100%;
+  border:1px solid #ccc;
+  padding:10px 15px;
+  font-size: 15px;
+  text-transform: none;
+}
+
+/*.container form .row .col .inputBox input:focus{
+  border: 1px solid #00AED9;
+}*/
+
+.container form .row .col .flex {
+  display: flex;
+  gap: 15px;
+}
+
+.container form .row .col .flex .inputBox {
+  margin-top: 1%;
+}
+
+.container form .row .col .inputBox img {
+  height: 34px;
+  margin-top: 1.56%;
+  filter: drop-shadow(-4px 4px 10px rgba(0, 0, 0, 0.25));
+}
+
+.container form .submit-btn {
+  width: 40%;
+  margin-left: 30%;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #00AED9;
+  color: white;
+  /*margin-top: 5px;*/
+  margin-top: 3%;
+  border: none;
+  transition: all 0.3s ease;
+
+}
+
+.container form .submit-btn:hover {
+	background-color: #0091B4;
+	cursor: pointer;
+}
+
+#footer {
+	margin-top: 5%;
+	/*border-top: 1px solid black;*/
+	/*background-color: #ECECEC;*/
+
+	display: flex;
+	width: 100%;
+	height: 60px;
+	user-select: none;
 }
